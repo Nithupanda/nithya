@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Portfolio</title>
+    <link rel="icon" href="portfolio icon.png" >
+    <style>
+        body {
+            font-family: 'Times New Roman', Times, serif;
+            margin: 0;
+            padding: 0;
+            background-color: #140101;
+        }
+
+        header {
+            background-color: #796464;
+            color: #f1e7e7;
+            margin: 40px;
+            border-radius: 10px;
+            text-align: center;
+            padding: 30px;
+            position: relative; /* Add this */
+        }
+
+        .header-content h1 {
+            font-size: 2.5rem;
+        }
+
+        /* Add styles for the round profile picture */
+        .profile-picture {
+            width: 150px; /* Adjust the size as needed */
+            height: 150px;
+            border-radius: 100%; /* Create a circular shape */
+            object-fit:cover; /* To ensure the image fills the circular area */
+            position: absolute; /* Add this */
+            top: 20px; /* Adjust top position as needed */
+            left: 50px; /* Adjust left position as needed */
+        }
+
+        nav {
+            
+            border-color: white;
+            border-width: 2px;
+            border-radius: 10px;
+            
+            text-align: center;
+        }
+
+        nav ul {
+            
+            list-style-type: none;
+            margin:0;
+            padding:0;
+            overflow:hidden;
+
+          
+        }
+
+        nav ul li {
+            
+           display: inline-block;
+           background-color: #d17272;
+           border-width: 2px;
+           border-radius: 10px;
+            border-style: double;
+            margin: 10px;
+            padding: 10px;
+        }
+
+        nav ul li a {
+            
+            
+            color:white;           
+            text-align: center;
+            padding:14px 16px;
+            text-decoration: none;
+            
+        
+        }
+        nav ul li a:hover{     
+          
+            
+            color: #a72e2e;
+        }
+
+        .section-content {
+            background-color: #fff;
+            padding: 50px;
+            margin-left : 100px;
+            margin-right : 100px;
+            margin-bottom: 10px;
+            
+            
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: justify;
+        }
+
+        .download-button {
+            background-color: #333;
+            color: #fff;
+            padding: 0.5rem 1rem;
+            text-decoration: none;
+            border-radius: 20px;
+            display: inline-block;
+            margin-top: 10px;
+            align-self: center;
+        }
+
+        .download-button:hover {
+            background-color: #555;
+        }
+
+        footer {
+            text-align: center;
+            margin: 10px;
+            padding: 1rem 0;
+            border-radius: 40px;
+            background-color: #a06565;
+            color: #fff;
+        }
+
+        ul {
+            list-style-type: disc;
+            padding-left: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <!-- Add your profile picture here -->
+            <img src="profile.jpg" alt="Your Profile Picture" class="profile-picture">
+            <h1>NITHYAA SRI S</h1>
+            <h3> A Computer Specialist </h3>
+        </div>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#about" class=" btn">About</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#languages"> Languages </a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#research papers"> Research papers</a></li>
+            <li><a href="#certificates"> Certificates </a></li>
+            <li><a href="#resume">Resume</a></li>
+           
+        </ul>
+    </nav>
+
+    <section id="about">
+        <div class="section-content">
+            <h2>🙋🏻‍♀️About Me</h2>
+            <p> I'm <b> Data Analyst </b> and <b>Web Developer</b> with a strong foundation in Computer Science and AI. Passionate about extracting insights from data using analytical tools developing user-friendly web applications and seeking opportunities to apply my skills in data-driven decision-making and web technologies to solve real-world problems.</p>
+        </div>
+    </section>
+
+    <section id="education">
+        <div class="section-content">
+            <h2>🎓Education</h2>
+            <p>
+                <ul style="list-style-type:disc; padding-left: 50px;">
+                    <li>B.Sc. Computer Science with Artificial Intelligence <b>|</b>
+                Jeppiaar College of Arts and Science <b> | </b> 2023 – Present.</li><br>
+                <br>
+                <li>Higher Secondary Education (12th Grade) <b> | </b> 
+                Sri Ramakrishna Matriculation Hr. Sec. School Chennai-600045. <b> | </b> 2023 <b> | </b> 78.8%.</li><br><br>
+               <li> Secondary Education (10th Grade) <b> | </b> 
+                Sri Ramakrishna Matriculation Hr. Sec. School Chennai-600045. <b> | </b> 2020 <b> | </b>Passed (Government All-Pass Policy).</li>
+                </p>
+            
+            
+        </div>
+    </section>
+
+    <section id="skills">
+        <div class="section-content">
+            <h2>🤸🏻‍♀️Skills</h2>
+            
+            <ul style="list-style-type:disc; padding-left: 50px;" >
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Python</li>
+                <li> R </li>
+                <li>BI Tool</li>
+                <li>ML & AI</li>
+                <li>Java</li>
+                <li>C++</li>
+                <li>JavaScript</li>
+            </ul>
+       
+        </div>
+    </section>
+
+    <section id="languages">
+        <div class="section-content">
+            <h2>🗣️Languages</h2>
+            <ul style="list-style-type:disc; padding-left: 50px;">
+                <li>English</li>
+                <li>Tamil</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="projects">
+        <div class="section-content">
+            <h2>🎯Projects</h2>
+            <ul>
+                <li><a href="#">Rainfall Prediction in Chennai Using Machine Learning</a></li>
+                <li><a href="#">Analysing hotel management system data using the Cognos tool</a></li>
+                <li><a href="#">Predicting Bank Loan Eligibility Using Machine Learning</a></li>
+                <li><a href="#">Digital Portfolio</a></li> 
+                <!-- Add more project links here -->
+            </ul>
+        </div>
+    </section>
+   
+    <section id="research papers">
+        <div class="section-content">
+            <h2>📚Research Papers</h2>
+            <ul>
+                <li>Beyond Passwords: Strengthening Online Transaction Security with FIDO2 Authentication | Paper ID: AISFS115 | Government Arts College (Nandanam) | Artificial Intelligence and Education: Shaping the Future of Society | February 26th, 2025.</a></li>
+                <li>Weather Wise Cricket: A Bayesian Approach to In-Match Forecasting | Paper ID: SMCC181 | Presented at the Sri Malolan College of Arts and Science (Madhurantakam) | International Conference on Mathematical Modeling and Computational Innovations (ICMMCI – 2025) | February 21st, 2025.</a></li>
+                <li>Real-time Credit Card Fraud Detection Using Ensemble Machine Learning Algorithm | Presented at the Patrician College of Arts and Science | International Conference on Digital Innovation in Business & Service Sectors | September 13th, 2024.</a></li>
+                
+                
+            </ul>
+        </div>
+    </section>
+
+    <section id="certificates">
+        <div class="section-content">
+            <h2>📜Certificates</h2>
+            <ol>
+                <li>IBM</li>
+                <ul>
+                
+                <li>Software Foundation with C programming.</a></li>
+                <li>Data Visualization.</a></li>
+                <li>Business Intelligence.</a></li>
+                </ul>
+
+                <li>NPTEL</li>
+                <ul>
+                <li> The Joy of Computing Using Python</li>
+                <li>Python for Data Science.</a></li>
+                <li> IOT</li>
+                </ul>
+
+                <li> Data Analytics From NOVITECH</li>
+                
+                
+            </ol>
+        </div>
+    </section>
+
+    <section id="resume">
+    
+        <div class="section-content">
+            <center>
+            <h2>Resume</h2>
+            <a href="resume profile.pdf" target="_blank" class="download-button">Download CV</a>
+        </center>
+        </div>
+        
+    </section>
+
+    <footer>
+        <p>&copy; 2025 NITHYAA SRI S</p>
+    </footer>
+
+    <script>
+        // Smooth scrolling to section when clicking on navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+
+                const targetId = this.getAttribute('href').substring(1);
+                const targetElement = document.getElementById(targetId);
+
+                if (targetElement) {
+                    window.scrollTo({
+                        top: targetElement.offsetTop,
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        });
+    </script>
+</body>
+</html>
